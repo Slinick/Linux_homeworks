@@ -1,0 +1,19 @@
+   0 ls
+   1 ..cd
+   2 cd ..
+   3 ls
+   4 cd /tmp
+   5 nano
+   6 ls
+   7 tree
+   8 cat etc/group
+   9 cat etc/group/
+  10 cd ..
+  11 cd /etc/
+  12 ls
+  13 cat group
+  14 cat group | tail -5 >> /tmp/myfile.txt
+  15 cd ..
+  16 cd /tmp/
+  17 vi myfile.txt
+  18 history > history3.txt
