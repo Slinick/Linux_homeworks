@@ -1,0 +1,18 @@
+   0 cd /home
+   1 nano myscript.sh
+   2 chmod 744 myscript.sh
+   3 ls -la
+   4 export PATH=$PATH:/home
+   5 echo $PATH
+   6 myscript.sh
+   7 cd /var 
+   8 ls
+   9 cat nikalaj.txt
+  10 history > history.txt 
+===================================
+скрипт
+#!/bin/bash
+touch /var/nikalaj.txt
+date > /var/nikalaj.txt
+cat /etc/group | tail -3 | sed s/user2/nikalaj/g > /var/nikalaj.txt
+
