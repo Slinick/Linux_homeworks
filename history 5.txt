@@ -9,10 +9,9 @@
    8 ls
    9 cat nikalaj.txt
   10 history > history.txt 
-===================================
-скрипт
+====================================================================
 #!/bin/bash
 touch /var/nikalaj.txt
 date > /var/nikalaj.txt
 cat /etc/group | tail -3 | sed s/user2/nikalaj/g > /var/nikalaj.txt
-
+====================================================================
