@@ -1,0 +1,13 @@
+   0 echo '#!/bin/bash' > myfirstscript.sh
+   1 echo 'USER=Nikalay' >> myfirstscript.sh 
+   2 echo 'date' >> myfirstscript.sh 
+   3 echo 'echo "hello, $USER"' >> myfirstscript.sh 
+   4 echo 'pwd' >> myfirstscript.sh 
+   5 echo 'ps -ef | wc -l' >> myfirstscript.sh 
+   6 echo 'ls -la /etc/passwd | awk '{ print $1 }'' >> myfirstscript.sh
+   7 chmod +x myfirstscript.sh   
+   8 cat myfirstscript.sh  
+   9 nano myfirstscript.sh
+ 	одиночные кавычки ('...' в awk) пришлось руками добавить. Не знаю работу с литералами как тут делать. Толи в джава ' -->  \'
+  10 ./myfirstscript.sh 
+  11 history > hometask6.txt
