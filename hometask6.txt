@@ -8,6 +8,8 @@
    7 chmod +x myfirstscript.sh   
    8 cat myfirstscript.sh  
    9 nano myfirstscript.sh
- 	одиночные кавычки ('...' в awk) пришлось руками добавить. Не знаю работу с литералами как тут делать. Толи в джава ' -->  \'
+
+	prishlos '...' dobavit ry4kami v AWK. 
+  
   10 ./myfirstscript.sh 
   11 history > hometask6.txt
